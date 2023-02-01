@@ -44,7 +44,8 @@ public class AuthController {
 
     @GetMapping("user")
     public String user() {
-        return "Đây là page cho người dùng";
+        log.info("Day la log cua user");
+        return "User";
     }
 
     @GetMapping("admin")
