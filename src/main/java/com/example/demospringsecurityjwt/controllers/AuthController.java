@@ -44,7 +44,7 @@ public class AuthController {
 
     @GetMapping("user")
     public String user() {
-        return "Page for user";
+        return "User";
     }
 
     @GetMapping("admin")
