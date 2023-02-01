@@ -49,6 +49,7 @@ public class AuthController {
 
     @GetMapping("admin")
     public String admin() {
+        log.info("1");
         return "Admin";
     }
 
