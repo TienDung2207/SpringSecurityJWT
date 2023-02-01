@@ -44,6 +44,7 @@ public class AuthController {
 
     @GetMapping("user")
     public String user() {
+        log.info("Day la log cua user");
         return "User";
     }
 
