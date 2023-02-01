@@ -27,7 +27,6 @@ public class AuthController {
     public ResponseEntity<MessageResponse> login(@RequestBody LoginRequest loginRequest, HttpServletResponse response) {
         ResponseEntity<MessageResponse> loginResponse = authService.handleLogin(loginRequest);
 
-        response.addHeader("ABC", "!");
         return loginResponse;
     }
 

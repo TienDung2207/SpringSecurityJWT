@@ -50,9 +50,7 @@ public class AuthService {
                 jwt.setAccessToken(jwtToken);
                 jwt.setExpireIn(expiration / 1000);
 
-
                 MessageResponse loginResponse = new MessageResponse("00", "Signed in successfully!", jwt);
-
                 return new ResponseEntity<>(loginResponse, HttpStatus.OK);
             } else {
                 log.error("Invalid credentials");
