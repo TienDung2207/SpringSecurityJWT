@@ -20,13 +20,9 @@ import org.springframework.stereotype.Service;
 public class AuthService {
     @Value("${jwt.expiration}")
     private long expiration;
-
     private final JwtTokenProvider jwtTokenProvider;
-
     private final UserRepository userRepository;
-
     private final Config config;
-
     public AuthService(JwtTokenProvider jwtTokenProvider, UserRepository userRepository, Config config) {
         this.jwtTokenProvider = jwtTokenProvider;
         this.userRepository = userRepository;

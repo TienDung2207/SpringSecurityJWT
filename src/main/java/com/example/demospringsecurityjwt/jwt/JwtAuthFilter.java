@@ -26,11 +26,8 @@ import java.util.Arrays;
 @Component
 @AllArgsConstructor
 public class JwtAuthFilter extends OncePerRequestFilter {
-
     private final JwtTokenProvider jwtTokenProvider;
-
     private final AuthService authService;
-
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         try {
