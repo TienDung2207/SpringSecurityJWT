@@ -49,6 +49,7 @@ public class AuthController {
 
     @GetMapping("admin")
     public String admin() {
+        log.error("LOG ERROR");
         return "Page for admin";
     }
 
