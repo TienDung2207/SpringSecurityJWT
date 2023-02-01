@@ -50,7 +50,6 @@ public class AuthController {
 
     @GetMapping("admin")
     public String admin() {
-        log.error("LOG!");
         return "Page for admin";
     }
 
