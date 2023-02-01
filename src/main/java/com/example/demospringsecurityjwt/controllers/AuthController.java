@@ -44,12 +44,12 @@ public class AuthController {
 
     @GetMapping("user")
     public String user() {
-        return "Đây là page cho người dùng";
+        return "User";
     }
 
     @GetMapping("admin")
     public String admin() {
-        return "Admin";
+        return "Page for admin";
     }
 
 }
