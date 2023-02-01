@@ -1,0 +1,5 @@
+2022-11-16 11:56:40,680 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-V48I37E with PID 14804 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by Nguyen The Tien Dung in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2022-11-16 11:56:40,688 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-16 11:56:40,689 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 11:56:51,013 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2022-11-16 11:56:52,073 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 12.6 seconds (JVM running for 13.669)

@@ -1,0 +1,51 @@
+2023-01-16 08:29:46,312 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 17764 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2023-01-16 08:29:46,325 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-16 08:29:46,327 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-16 08:29:51,934 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2023-01-16 08:29:53,236 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 7.811 seconds (JVM running for 11.05)
+2023-01-16 08:30:44,862 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-1] authentication: null
+2023-01-16 08:30:59,389 INFO [Config.java,hmacSHA512,19] [http-nio-9092-exec-1] KEY: 18XClzOZni0kHhirGQtXKBoSK6puvgqL
+2023-01-16 08:30:59,390 INFO [Config.java,hmacSHA512,20] [http-nio-9092-exec-1] DATA: 5e75868d3a37c05db0fc967e9a53fdf0
+2023-01-16 08:31:56,840 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 8800 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2023-01-16 08:31:56,846 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-16 08:31:56,848 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-16 08:32:00,570 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2023-01-16 08:32:01,362 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 7.492 seconds (JVM running for 8.821)
+2023-01-16 08:32:07,904 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-2] authentication: null
+2023-01-16 08:32:14,420 INFO [Config.java,hmacSHA512,19] [http-nio-9092-exec-2] KEY: 18XClzOZni0kHhirGQtXKBoSK6puvgqL
+2023-01-16 08:32:14,421 INFO [Config.java,hmacSHA512,20] [http-nio-9092-exec-2] DATA: 5e75868d3a37c05db0fc967e9a53fdf0
+2023-01-16 08:33:06,028 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-3] authentication: null
+2023-01-16 08:33:09,046 INFO [Config.java,hmacSHA512,19] [http-nio-9092-exec-3] KEY: 18XClzOZni0kHhirGQtXKBoSK6puvgqL
+2023-01-16 08:33:09,047 INFO [Config.java,hmacSHA512,20] [http-nio-9092-exec-3] DATA: 5e75868d3a37c05db0fc967e9a53fdf0
+2023-01-16 10:48:26,401 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-BG6UEKR with PID 5472 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by svgxh in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2023-01-16 10:48:26,405 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-16 10:48:26,406 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2023-01-16 10:48:30,607 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2023-01-16 10:48:31,543 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 5.852 seconds (JVM running for 6.882)
+2023-01-16 10:48:46,300 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-4] authentication: null
+2023-01-16 10:48:50,135 INFO [Config.java,hmacSHA512,19] [http-nio-9092-exec-4] KEY: 18XClzOZni0kHhirGQtXKBoSK6puvgqL
+2023-01-16 10:48:50,137 INFO [Config.java,hmacSHA512,20] [http-nio-9092-exec-4] DATA: 698d51a19d8a121ce581499d7b701668
+2023-01-16 10:48:50,406 ERROR [AuthService.java,handleLogin,58] [http-nio-9092-exec-4] Invalid credentials
+2023-01-16 10:48:57,561 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-3] authentication: null
+2023-01-16 10:49:04,846 INFO [Config.java,hmacSHA512,19] [http-nio-9092-exec-3] KEY: 18XClzOZni0kHhirGQtXKBoSK6puvgqL
+2023-01-16 10:49:04,847 INFO [Config.java,hmacSHA512,20] [http-nio-9092-exec-3] DATA: 5e75868d3a37c05db0fc967e9a53fdf0
+2023-01-16 10:49:33,195 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-5] authentication: null
+2023-01-16 10:49:35,436 INFO [JwtTokenProvider.java,getJwtTypeFromRequest,68] [http-nio-9092-exec-5] type JWT: Bearer
+2023-01-16 10:49:35,437 INFO [JwtTokenProvider.java,getJwtFromRequest,81] [http-nio-9092-exec-5] jwtTokeneyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjIiLCJpYXQiOjE2NzM4NDA5NDQsImV4cCI6MTY3Mzg4NDE0NH0.9duWyKeihRqFksJpsa_aPGCubEmbqnTaqjYSgRK3nQdZDZayNz0GmENun1893xF1RtAlm7GhUG_Kgaeju10_SQ
+2023-01-16 10:49:35,482 INFO [JwtTokenProvider.java,validateJwtToken,45] [http-nio-9092-exec-5] abc: header={alg=HS512},body={sub=admin2, iat=1673840944, exp=1673884144},signature=9duWyKeihRqFksJpsa_aPGCubEmbqnTaqjYSgRK3nQdZDZayNz0GmENun1893xF1RtAlm7GhUG_Kgaeju10_SQ
+2023-01-16 10:49:53,077 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-7] authentication: null
+2023-01-16 10:49:55,818 INFO [JwtTokenProvider.java,getJwtTypeFromRequest,68] [http-nio-9092-exec-7] type JWT: Bearer
+2023-01-16 10:49:55,818 INFO [JwtTokenProvider.java,getJwtFromRequest,81] [http-nio-9092-exec-7] jwtTokeneyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjIiLCJpYXQiOjE2NzM4NDA5NDQsImV4cCI6MTY3Mzg4NDE0NH0.9duWyKeihRqFksJpsa_aPGCubEmbqnTaqjYSgRK3nQdZDZayNz0GmENun1893xF1RtAlm7GhUG_Kgaeju10_SQ
+2023-01-16 10:49:55,821 INFO [JwtTokenProvider.java,validateJwtToken,45] [http-nio-9092-exec-7] abc: header={alg=HS512},body={sub=admin2, iat=1673840944, exp=1673884144},signature=9duWyKeihRqFksJpsa_aPGCubEmbqnTaqjYSgRK3nQdZDZayNz0GmENun1893xF1RtAlm7GhUG_Kgaeju10_SQ
+2023-01-16 10:50:04,875 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-6] authentication: null
+2023-01-16 10:50:49,747 ERROR [AuthEntryPointJwt.java,commence,21] [http-nio-9092-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-01-16 10:50:50,423 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-8] authentication: null
+2023-01-16 10:51:04,520 ERROR [AuthEntryPointJwt.java,commence,21] [http-nio-9092-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-01-16 12:22:15,157 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-2] authentication: null
+2023-01-16 12:22:15,295 ERROR [AuthEntryPointJwt.java,commence,21] [http-nio-9092-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-01-16 12:22:16,395 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-4] authentication: null
+2023-01-16 12:22:16,398 ERROR [AuthEntryPointJwt.java,commence,21] [http-nio-9092-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-01-16 14:01:49,173 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-3] authentication: null
+2023-01-16 14:01:49,220 ERROR [AuthEntryPointJwt.java,commence,21] [http-nio-9092-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-01-16 14:01:49,847 INFO [JwtAuthFilter.java,doFilterInternal,38] [http-nio-9092-exec-5] authentication: null
+2023-01-16 14:01:49,850 ERROR [AuthEntryPointJwt.java,commence,21] [http-nio-9092-exec-5] Unauthorized error: Full authentication is required to access this resource

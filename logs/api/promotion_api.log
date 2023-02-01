@@ -1,0 +1,50 @@
+2022-11-16 11:25:01,428 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-V48I37E with PID 5024 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by Nguyen The Tien Dung in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2022-11-16 11:25:01,451 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-16 11:25:01,453 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 11:25:05,854 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2022-11-16 11:25:06,695 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 5.98 seconds (JVM running for 8.265)
+2022-11-16 11:25:20,324 ERROR [JwtTokenProvider.java,validateJwtToken,44] [http-nio-9090-exec-3] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2022-11-16 11:25:20,341 ERROR [AuthEntryPointJwt.java,commence,22] [http-nio-9090-exec-3] Unauthorized error: Full authentication is required to access this resource
+2022-11-16 11:28:51,346 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-V48I37E with PID 16880 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by Nguyen The Tien Dung in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2022-11-16 11:28:51,350 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-16 11:28:51,352 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 11:28:55,294 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2022-11-16 11:28:56,011 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 5.257 seconds (JVM running for 6.285)
+2022-11-16 11:30:03,052 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-V48I37E with PID 16160 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by Nguyen The Tien Dung in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2022-11-16 11:30:03,064 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-16 11:30:03,065 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 11:30:06,738 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2022-11-16 11:30:07,427 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 5.236 seconds (JVM running for 6.344)
+2022-11-16 11:30:13,687 ERROR [JwtTokenProvider.java,validateJwtToken,44] [http-nio-9090-exec-1] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2022-11-16 11:30:13,707 ERROR [AuthEntryPointJwt.java,commence,22] [http-nio-9090-exec-1] Unauthorized error: Full authentication is required to access this resource
+2022-11-16 11:40:02,375 INFO [AuthService.java,handleRegisterUser,62] [http-nio-9090-exec-5] done
+2022-11-16 11:40:24,055 INFO [AuthService.java,handleRegisterUser,62] [http-nio-9090-exec-7] done
+2022-11-16 11:40:34,113 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-9] KEY: CEM6V7QFMY1cP3RqxNpbIimgANRPbz1A
+2022-11-16 11:40:34,115 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-9] DATA: c4ca4238a0b923820dcc509a6f75849b
+2022-11-16 11:40:50,781 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-10] KEY: CEM6V7QFMY1cP3RqxNpbIimgANRPbz1A
+2022-11-16 11:40:50,782 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-10] DATA: c4ca4238a0b923820dcc509a6f75849b
+2022-11-16 11:40:50,784 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-10] KEY: CEM6V7QFMY1cP3RqxNpbIimgANRPbz1A
+2022-11-16 11:40:50,785 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-10] DATA: c4ca4238a0b923820dcc509a6f75849b
+2022-11-16 11:42:20,906 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-8] KEY: 1p0u6zGE39xyw9Audv4tQYmCkCtG0yrZ
+2022-11-16 11:42:20,907 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-8] DATA: c4ca4238a0b923820dcc509a6f75849b
+2022-11-16 11:42:20,909 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-8] KEY: 1p0u6zGE39xyw9Audv4tQYmCkCtG0yrZ
+2022-11-16 11:42:20,910 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-8] DATA: c4ca4238a0b923820dcc509a6f75849b
+2022-11-16 11:51:56,019 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-4] KEY: 1p0u6zGE39xyw9Audv4tQYmCkCtG0yrZ
+2022-11-16 11:51:56,020 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-4] DATA: c20ad4d76fe97759aa27a0c99bff6710
+2022-11-16 11:51:56,022 ERROR [CustomAuthenticationProvider.java,authenticate,50] [http-nio-9090-exec-4] Invalid credentials
+2022-11-16 11:51:56,029 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-4] KEY: 1p0u6zGE39xyw9Audv4tQYmCkCtG0yrZ
+2022-11-16 11:51:56,030 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-4] DATA: c20ad4d76fe97759aa27a0c99bff6710
+2022-11-16 11:51:56,032 ERROR [CustomAuthenticationProvider.java,authenticate,50] [http-nio-9090-exec-4] Invalid credentials
+2022-11-16 11:51:56,034 ERROR [AuthService.java,handleLogin,53] [http-nio-9090-exec-4] ex login: Invalid credentials
+2022-11-16 11:53:40,889 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-2] KEY: 1p0u6zGE39xyw9Audv4tQYmCkCtG0yrZ
+2022-11-16 11:53:40,890 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-2] DATA: 20d135f0f28185b84a4cf7aa51f29500
+2022-11-16 11:53:40,891 ERROR [CustomAuthenticationProvider.java,authenticate,50] [http-nio-9090-exec-2] Invalid credentials
+2022-11-16 11:53:40,894 INFO [Config.java,hmacSHA512,19] [http-nio-9090-exec-2] KEY: 1p0u6zGE39xyw9Audv4tQYmCkCtG0yrZ
+2022-11-16 11:53:40,895 INFO [Config.java,hmacSHA512,20] [http-nio-9090-exec-2] DATA: 20d135f0f28185b84a4cf7aa51f29500
+2022-11-16 11:53:40,897 ERROR [CustomAuthenticationProvider.java,authenticate,50] [http-nio-9090-exec-2] Invalid credentials
+2022-11-16 11:53:40,898 ERROR [AuthService.java,handleLogin,53] [http-nio-9090-exec-2] ex login: Invalid credentials
+2022-11-16 11:55:31,916 INFO [StartupInfoLogger.java,logStarting,55] [main] Starting DemoSpringSecurityJwtApplication using Java 1.8.0_202 on DESKTOP-V48I37E with PID 15032 (D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT\build\classes\java\main started by Nguyen The Tien Dung in D:\TAI LIEU HOC TAP\Java\Training\DemoSpringSecurityJWT)
+2022-11-16 11:55:31,920 DEBUG [StartupInfoLogger.java,logStarting,56] [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-16 11:55:31,921 INFO [SpringApplication.java,logStartupProfileInfo,634] [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 11:55:35,736 DEBUG [GenericFilterBean.java,init,242] [main] Filter 'jwtAuthFilter' configured for use
+2022-11-16 11:55:36,564 INFO [StartupInfoLogger.java,logStarted,61] [main] Started DemoSpringSecurityJwtApplication in 5.174 seconds (JVM running for 6.476)
