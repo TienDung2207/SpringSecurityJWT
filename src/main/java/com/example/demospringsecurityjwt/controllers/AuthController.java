@@ -44,12 +44,12 @@ public class AuthController {
 
     @GetMapping("user")
     public String user() {
+        log.info("Day la log cua user");
         return "User";
     }
 
     @GetMapping("admin")
     public String admin() {
-        log.error("LOG ERROR");
         return "Page for admin";
     }
 
