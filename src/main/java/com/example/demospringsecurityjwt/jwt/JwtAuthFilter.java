@@ -47,8 +47,10 @@ public class JwtAuthFilter extends OncePerRequestFilter {
                 SecurityContextHolder.getContext().setAuthentication(authentication);
             }
         } catch (Exception ex) {
-            int number = 992001;
-            log.info("Cong tru nhan chia: " + number);
+            String name = "Maria";
+            String message = "...";
+            log.info("Xin chào " + name + message);
+            log.info("Phan Thi Quynh");
             log.error("Fail on set user authentication: {}", ex.getMessage());
         }
         filterChain.doFilter(request, response);
