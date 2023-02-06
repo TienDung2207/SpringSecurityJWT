@@ -1,2 +1,4 @@
-package com.example.demospringsecurityjwt.jwt;public class demo {
+package com.example.demospringsecurityjwt.jwt;
+
+public class demo {
 }
